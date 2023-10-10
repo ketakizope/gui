@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ButtonBar layoutX="72.0" layoutY="278.0" prefHeight="40.0" prefWidth="60.0" />
+      <Label prefHeight="18.0" prefWidth="0.0" />
+      <Label layoutX="292.0" layoutY="98.0" />
+      <TabPane layoutX="2.0" prefHeight="66.0" prefWidth="131.0" tabClosingPolicy="UNAVAILABLE" />
+      <TabPane layoutX="2.0" layoutY="-2.0" prefHeight="66.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Home" />
+          <Tab text="Complaint">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab text="Customer Support">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Reviews">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Help">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="79.0" prefWidth="516.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label layoutX="226.0" layoutY="191.0" text="No Recent Complaints" />
+      <ImageView fitHeight="253.0" fitWidth="429.0" layoutX="117.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desktop/page1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
